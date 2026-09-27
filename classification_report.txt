@@ -1,0 +1,32 @@
+AGRI SHIELD AI
+EfficientNetB0 Final Evaluation
+
+Test Accuracy: 92.57%
+
+                                                    precision    recall  f1-score   support
+
+Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot     0.8816    0.8701    0.8758        77
+                       Corn_(maize)___Common_rust_     1.0000    0.9888    0.9944       179
+               Corn_(maize)___Northern_Leaf_Blight     0.9200    0.9324    0.9262       148
+                            Corn_(maize)___healthy     1.0000    1.0000    1.0000       175
+                                 Grape___Black_rot     0.9505    0.9774    0.9638       177
+                      Grape___Esca_(Black_Measles)     0.9803    0.9567    0.9684       208
+        Grape___Leaf_blight_(Isariopsis_Leaf_Spot)     1.0000    0.9938    0.9969       162
+                                   Grape___healthy     0.9846    1.0000    0.9922        64
+                             Potato___Early_blight     0.9551    0.9933    0.9739       150
+                              Potato___Late_blight     0.9103    0.9467    0.9281       150
+                                  Potato___healthy     0.7419    1.0000    0.8519        23
+                           Tomato___Bacterial_spot     0.9547    0.8562    0.9028       320
+                             Tomato___Early_blight     0.9124    0.8333    0.8711       150
+                              Tomato___Late_blight     0.9377    0.8920    0.9143       287
+                                Tomato___Leaf_Mold     0.9051    0.8671    0.8857       143
+                       Tomato___Septoria_leaf_spot     0.8755    0.8985    0.8868       266
+     Tomato___Spider_mites Two-spotted_spider_mite     0.8636    0.8294    0.8462       252
+                              Tomato___Target_Spot     0.6761    0.9100    0.7758       211
+            Tomato___Tomato_Yellow_Leaf_Curl_Virus     0.9973    0.9341    0.9647       804
+                      Tomato___Tomato_mosaic_virus     0.9286    0.9286    0.9286        56
+                                  Tomato___healthy     0.8839    0.9874    0.9328       239
+
+                                          accuracy                         0.9257      4241
+                                         macro avg     0.9171    0.9331    0.9229      4241
+                                      weighted avg     0.9317    0.9257    0.9270      4241
